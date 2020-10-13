@@ -1,0 +1,24 @@
+<div class="h-full">
+  <div>
+    <h2 class="font-semibold">Chat Room</h2>
+  </div>
+  <div class="w-1/3 h-64 border border-gray-500 overflow-x-auto">
+    <div class="border border-solid">
+      <div
+        *ngFor="let msg of msgInbox"
+        [ngClass]="user?.name === msg.user ? 'mr-0' : 'ml-0'"
+      >
+        <span class="block font-semibold">{{ msg.user }}</span>
+        <span>{{ msg.content }}</span>
+      </div>
+    </div>
+  </div>
+  <div class="border border-gray-300 mt-4 w-1/3 flex justify-between">
+    <input
+      type="text"
+      placeholder="Type message here"
+      [(ngModel)]="message.content"
+    />
+    <button (click)="send()">Send</button>
+  </div>
+</div>
