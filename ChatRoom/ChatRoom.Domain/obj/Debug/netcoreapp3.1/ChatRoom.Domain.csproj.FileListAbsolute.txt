@@ -1,0 +1,9 @@
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Domain\bin\Debug\netcoreapp3.1\ChatRoom.Domain.deps.json
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Domain\bin\Debug\netcoreapp3.1\ChatRoom.Domain.dll
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Domain\bin\Debug\netcoreapp3.1\ChatRoom.Domain.pdb
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Domain\obj\Debug\netcoreapp3.1\ChatRoom.Domain.csprojAssemblyReference.cache
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Domain\obj\Debug\netcoreapp3.1\ChatRoom.Domain.AssemblyInfoInputs.cache
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Domain\obj\Debug\netcoreapp3.1\ChatRoom.Domain.AssemblyInfo.cs
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Domain\obj\Debug\netcoreapp3.1\ChatRoom.Domain.csproj.CoreCompileInputs.cache
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Domain\obj\Debug\netcoreapp3.1\ChatRoom.Domain.dll
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Domain\obj\Debug\netcoreapp3.1\ChatRoom.Domain.pdb
