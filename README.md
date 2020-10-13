@@ -12,12 +12,12 @@ In order to run the applications (Identity Provider and API) you need to meet th
 
 To use the application there are two test users, we need to use those since I didn't add how to register users. The users are:
 
-**TestUser1**
-Username: testuser1
+**TestUser1**  
+Username: testuser1  
 Password: Password@123
 
-**TestUser2**
-Username: testuser2
+**TestUser2**  
+Username: testuser2  
 Password: Password@123
 
 To gain some development time I used the QuickstartUI from IdentityServer4 which provide views and controllers for the Identity Provider.
