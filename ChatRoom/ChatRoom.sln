@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatRoom.Domain", "ChatRoom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatRoom.Infrastructure", "ChatRoom.Infrastructure\ChatRoom.Infrastructure.csproj", "{5E38D4D8-8411-4946-ACFA-170585CFC26E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatRoom.Api", "ChatRoom.Api\ChatRoom.Api.csproj", "{A2E951A0-B007-4A40-891A-A4E1903F040D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AB03ADA4-FE8C-4303-BAF3-74B1C507DAF4} = {AB03ADA4-FE8C-4303-BAF3-74B1C507DAF4}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +32,10 @@ Global
 		{5E38D4D8-8411-4946-ACFA-170585CFC26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E38D4D8-8411-4946-ACFA-170585CFC26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E38D4D8-8411-4946-ACFA-170585CFC26E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E951A0-B007-4A40-891A-A4E1903F040D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E951A0-B007-4A40-891A-A4E1903F040D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E951A0-B007-4A40-891A-A4E1903F040D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E951A0-B007-4A40-891A-A4E1903F040D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

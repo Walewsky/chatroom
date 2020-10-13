@@ -1,0 +1,358 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Api\\ChatRoom.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Api\\ChatRoom.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Api\\ChatRoom.Api.csproj",
+        "projectName": "ChatRoom.Api",
+        "projectPath": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Api\\ChatRoom.Api.csproj",
+        "packagesPath": "C:\\Users\\wterrero\\.nuget\\packages\\",
+        "outputPath": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wterrero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Code\\powerplan-income-tax\\PowerPlan.IncomeTax.ShardProvisioner\\nupkg": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://34.200.125.35:8081/repository/nuget-private/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.hangfire.io/nuget/hangfire-pro/": {},
+          "https://www.myget.org/F/opentelemetry/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Domain\\ChatRoom.Domain.csproj": {
+                "projectPath": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Domain\\ChatRoom.Domain.csproj"
+              },
+              "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Infrastructure\\ChatRoom.Infrastructure.csproj": {
+                "projectPath": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Infrastructure\\ChatRoom.Infrastructure.csproj"
+              },
+              "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.StockBot\\ChatRoom.StockBot.csproj": {
+                "projectPath": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.StockBot\\ChatRoom.StockBot.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Domain\\ChatRoom.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Domain\\ChatRoom.Domain.csproj",
+        "projectName": "ChatRoom.Domain",
+        "projectPath": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Domain\\ChatRoom.Domain.csproj",
+        "packagesPath": "C:\\Users\\wterrero\\.nuget\\packages\\",
+        "outputPath": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wterrero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Code\\powerplan-income-tax\\PowerPlan.IncomeTax.ShardProvisioner\\nupkg": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://34.200.125.35:8081/repository/nuget-private/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.hangfire.io/nuget/hangfire-pro/": {},
+          "https://www.myget.org/F/opentelemetry/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Infrastructure\\ChatRoom.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Infrastructure\\ChatRoom.Infrastructure.csproj",
+        "projectName": "ChatRoom.Infrastructure",
+        "projectPath": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Infrastructure\\ChatRoom.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\wterrero\\.nuget\\packages\\",
+        "outputPath": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wterrero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Code\\powerplan-income-tax\\PowerPlan.IncomeTax.ShardProvisioner\\nupkg": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://34.200.125.35:8081/repository/nuget-private/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.hangfire.io/nuget/hangfire-pro/": {},
+          "https://www.myget.org/F/opentelemetry/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Domain\\ChatRoom.Domain.csproj": {
+                "projectPath": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Domain\\ChatRoom.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "IdentityServer4.EntityFramework": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.StockBot\\ChatRoom.StockBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.StockBot\\ChatRoom.StockBot.csproj",
+        "projectName": "ChatRoom.StockBot",
+        "projectPath": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.StockBot\\ChatRoom.StockBot.csproj",
+        "packagesPath": "C:\\Users\\wterrero\\.nuget\\packages\\",
+        "outputPath": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.StockBot\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wterrero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Code\\powerplan-income-tax\\PowerPlan.IncomeTax.ShardProvisioner\\nupkg": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://34.200.125.35:8081/repository/nuget-private/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.hangfire.io/nuget/hangfire-pro/": {},
+          "https://www.myget.org/F/opentelemetry/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Domain\\ChatRoom.Domain.csproj": {
+                "projectPath": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Domain\\ChatRoom.Domain.csproj"
+              },
+              "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Infrastructure\\ChatRoom.Infrastructure.csproj": {
+                "projectPath": "C:\\test-mcs\\chatroom\\ChatRoom\\ChatRoom.Infrastructure\\ChatRoom.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "ChoETL": {
+              "target": "Package",
+              "version": "[1.2.1.1, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
