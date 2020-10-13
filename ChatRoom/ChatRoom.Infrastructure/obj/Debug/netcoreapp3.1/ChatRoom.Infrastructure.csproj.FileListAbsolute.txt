@@ -1,0 +1,15 @@
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Infrastructure\bin\Debug\netcoreapp3.1\ChatRoom.Domain.dll
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Infrastructure\obj\Debug\netcoreapp3.1\ChatRoom.Infrastructure.csprojAssemblyReference.cache
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Infrastructure\obj\Debug\netcoreapp3.1\ChatRoom.Infrastructure.AssemblyInfoInputs.cache
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Infrastructure\obj\Debug\netcoreapp3.1\ChatRoom.Infrastructure.AssemblyInfo.cs
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Infrastructure\bin\Debug\netcoreapp3.1\ChatRoom.Infrastructure.deps.json
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Infrastructure\bin\Debug\netcoreapp3.1\ChatRoom.Infrastructure.dll
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Infrastructure\bin\Debug\netcoreapp3.1\ChatRoom.Infrastructure.pdb
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Infrastructure\bin\Debug\netcoreapp3.1\ChatRoom.Domain.pdb
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Infrastructure\obj\Debug\netcoreapp3.1\ChatRoom.Infrastructure.csproj.CopyComplete
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Infrastructure\obj\Debug\netcoreapp3.1\ChatRoom.Infrastructure.dll
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Infrastructure\obj\Debug\netcoreapp3.1\ChatRoom.Infrastructure.pdb
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Infrastructure\bin\Debug\netcoreapp3.1\ChatRoom.Infrastructure.runtimeconfig.json
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Infrastructure\bin\Debug\netcoreapp3.1\ChatRoom.Infrastructure.runtimeconfig.dev.json
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Infrastructure\obj\Debug\netcoreapp3.1\ChatRoom.Infrastructure.genruntimeconfig.cache
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.Infrastructure\obj\Debug\netcoreapp3.1\ChatRoom.Infrastructure.csproj.CoreCompileInputs.cache
