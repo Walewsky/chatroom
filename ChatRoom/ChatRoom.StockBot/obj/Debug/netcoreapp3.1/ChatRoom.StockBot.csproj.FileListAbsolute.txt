@@ -1,0 +1,14 @@
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.StockBot\bin\Debug\netcoreapp3.1\ChatRoom.StockBot.deps.json
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.StockBot\bin\Debug\netcoreapp3.1\ChatRoom.StockBot.dll
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.StockBot\obj\Debug\netcoreapp3.1\ChatRoom.StockBot.csprojAssemblyReference.cache
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.StockBot\obj\Debug\netcoreapp3.1\ChatRoom.StockBot.AssemblyInfoInputs.cache
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.StockBot\obj\Debug\netcoreapp3.1\ChatRoom.StockBot.AssemblyInfo.cs
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.StockBot\bin\Debug\netcoreapp3.1\ChatRoom.Domain.dll
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.StockBot\bin\Debug\netcoreapp3.1\ChatRoom.StockBot.pdb
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.StockBot\bin\Debug\netcoreapp3.1\ChatRoom.Infrastructure.dll
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.StockBot\bin\Debug\netcoreapp3.1\ChatRoom.Domain.pdb
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.StockBot\bin\Debug\netcoreapp3.1\ChatRoom.Infrastructure.pdb
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.StockBot\obj\Debug\netcoreapp3.1\ChatRoom.StockBot.csproj.CopyComplete
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.StockBot\obj\Debug\netcoreapp3.1\ChatRoom.StockBot.dll
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.StockBot\obj\Debug\netcoreapp3.1\ChatRoom.StockBot.pdb
+C:\test-mcs\chatroom\ChatRoom\ChatRoom.StockBot\obj\Debug\netcoreapp3.1\ChatRoom.StockBot.csproj.CoreCompileInputs.cache
