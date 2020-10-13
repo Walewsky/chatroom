@@ -80,7 +80,7 @@ namespace ChatRoom.Api
 
             services.AddSignalR();
 
-            services.AddStockBot();
+            services.AddStockBot(Configuration);
 
             services.AddControllers();
         }
