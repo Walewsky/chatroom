@@ -15,17 +15,23 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace ChatRoom.IdentityProvider
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; }
+
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            const string connectionString =
-                @"Server=localhost;Database=ChatRoom;Trusted_Connection=True;MultipleActiveResultSets=true";
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
 
             services.AddCors(options =>
@@ -39,7 +45,7 @@ namespace ChatRoom.IdentityProvider
                 });
 
             services.AddDbContext<IdpDbContext>(builder =>
-                builder.UseSqlServer(connectionString, sqlOptions => sqlOptions.MigrationsAssembly(migrationsAssembly)));
+                builder.UseSqlServer(Configuration.GetConnectionString("ChatRoom"), sqlOptions => sqlOptions.MigrationsAssembly(migrationsAssembly)));
 
             services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<IdpDbContext>();
@@ -48,11 +54,11 @@ namespace ChatRoom.IdentityProvider
                 .AddDeveloperSigningCredential()
                 .AddOperationalStore(options => options.ConfigureDbContext =
                     builder => builder.UseSqlServer(
-                        connectionString,
+                        Configuration.GetConnectionString("ChatRoom"),
                         sqlOptions => sqlOptions.MigrationsAssembly(migrationsAssembly)))
                 .AddConfigurationStore(options => options.ConfigureDbContext =
                     builder => builder.UseSqlServer(
-                        connectionString,
+                        Configuration.GetConnectionString("ChatRoom"),
                         sqlOptions => sqlOptions.MigrationsAssembly(migrationsAssembly)))
                 .AddAspNetIdentity<IdentityUser>();
 

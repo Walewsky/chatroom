@@ -29,7 +29,7 @@ namespace ChatRoom.Api
         {
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
 
-            services.AddDbContext<ChatRoomDbContext>(builder => builder.UseSqlServer(@"Server=localhost;Database=ChatRoom;Trusted_Connection=True;MultipleActiveResultSets=true", 
+            services.AddDbContext<ChatRoomDbContext>(builder => builder.UseSqlServer(Configuration.GetConnectionString("ChatRoom"), 
                 sqlOptions => sqlOptions.MigrationsAssembly(migrationsAssembly)));
 
             services.AddTransient<IChatRepository, ChatRepository>();
